@@ -1,0 +1,141 @@
+@import url('https://fonts.google.com/specimen/Balsamiq+Sans&display=swap');
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 15px;
+   margin: 0%;
+   padding: 0%;
+}
+
+.menu{
+    display: flex;
+    height:100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .menu li {
+    list-style: none;
+    display: block;
+    height: 100%;
+  }
+
+  .menu li a {
+    font-size: 17px;
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    height: 100%;
+    font-weight: 500;
+    padding: 0 18px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(91, 186, 37, 0.929); 
+  }
+
+  .logo img{
+    margin-left: 5rem;
+      max-width: 150px;
+      height: 106px;
+  }
+  .icons {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icons a {
+    justify-content:space-around;
+  }
+  
+  .icons img {
+    width: 20px;
+    padding: 20px;
+  }
+
+ /* cart items*/
+
+ .cart-table{
+    margin: 80px auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+ }
+  
+ table {
+    border-collapse: collapse;
+    width: 70%;
+}
+th, td {
+     /* Border for table cells (th and td) */
+    padding: 8px;
+    text-align: center;
+}
+.cart-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: left;
+    justify-content: space-around;
+}
+th{
+    padding: 5px;
+    background: rgb(98, 194, 54);
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+td input{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+td img{
+    width: 180px;
+    height: 180px;
+}
+.total-price{
+  justify-content: right;
+  margin-left: 690px;
+}
+
+.total-price table{
+  border-top: 3px solid rgb(98, 194, 54);
+  width: 350px;
+  max-width: 400px;
+}
+.total-price td{
+  padding: 15px;
+}
+
+ td:last-child{
+  text-align: right;
+}
+

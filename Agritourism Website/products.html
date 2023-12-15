@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleproducts.css" />
+    <title>Products</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="logo">
+        <img src="logo.png" />
+      </div>
+
+      <ul class="nav-menu">
+        <li><a href="HCI.html">Home</a></li>
+        <li><a href="HCI.html">About Us</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="HCI.html">Food Safety</a></li>
+        <li><a href="HCI.html">Sustainability</a></li>
+        <li><a href="HCI.html">Activities</a></li>
+        <li><a href="HCI.html">Our Packages</a></li>
+        <li><a href="HCI.html">Contact Us</a></li>
+        <li><a href="cart.html"><img src="cart.svg" alt="" style="width: 35px;"></a></li>
+      </ul>
+    </nav>
+
+    <div class="slide-container">
+      <div class="image-container">
+        <div class="slide">
+          <img src="grapes.png" />
+        </div>
+
+        <div class="slide">
+          <img src="apple1.jpg" />
+        </div>
+
+        <div class="slide">
+          <img src="orange.png" />
+        </div>
+
+        <div class="slide">
+          <img src="tomato.png" />
+        </div>
+      </div>
+
+    </div>
+
+    <div
+     style="padding: 4rem;">
+      <div class="head">
+        <p style="text-align: center;  font-size: 24px; color: rgb(7, 7, 7); 
+        font-weight: 500;
+        margin-bottom: 0;
+        padding-bottom: 0;" >
+         Fresh Fruits
+        </p></div>
+
+        <p  
+          style="
+            text-align: justify;
+            font-size: 18px;
+            color: #3a3737;
+          "
+        >
+          At Govardhan Farms, each and every fruit is grown with complete care
+          and a combination of ethical practices. The goodness of the soil, the
+          natural fertilizers, the farming conditions, and the entire process
+          comes together to bring the world’s highest quality and most authentic
+          produce to the customers. Relish the trusted taste of purity in every
+          bite.
+        </p>
+      </div>
+
+    <div class="w-layout-grid product-grid">
+      <div id="f1" class="pr-div"
+      >
+        <img
+          src="strawberry.jpeg"
+          loading="lazy"
+          alt="Strawberry img"
+          class="pr-img _250px"
+          id="1"
+        />
+        <h1 class="pr-heading">Strawberry &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.50/kg
+          </span>
+        </h1>
+        <div class="con-div">
+          <div class="c-control">
+            <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+            <div class="count-box">3</div>
+            <button class="btn-c" onclick="increamentCounter(this)">+</button>
+         
+          </div>
+          <div class="b-controls">
+            <button class="btn-b" onclick="addCart(1,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+            <button class="btn-b">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="f2"
+        class="pr-div"
+      >
+      
+        <div class="pr-div">
+          <img
+            src="guava.jpeg"
+            loading="lazy"
+            alt="Guava"
+            class="pr-img _250px"
+            id="2"
+          />
+          <h1 class="pr-heading">Guava
+            &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.70/kg
+          </span>
+          </h1>
+          <div class="con-div">
+            <div class="c-control">
+              <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+              <div class="count-box">3</div>
+              <button class="btn-c" onclick="increamentCounter(this)">+</button>
+            </div>
+            <div class="b-controls">
+              <button class="btn-b" onclick="addCart(2,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+              <button class="btn-b">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="f3"
+        class="pr-div"
+      >
+        <div class="pr-div">
+          <img
+            src="kashmiri_apple.jpeg"
+            loading="lazy"
+            alt="Apple"
+            sizes="250px"
+            srcset="
+              https://assets.website-files.com/62551fa7bee8db16e944f95d/62f633840a4192578f2b951d_Apple%20(4)-p-500.webp 500w,
+              https://assets.website-files.com/62551fa7bee8db16e944f95d/62f633840a4192578f2b951d_Apple%20(4).webp       500w
+            "
+            class="pr-img _250px"
+            id="3"
+          />
+        </div>
+        <h1 class="pr-heading">Kashmiri Apple
+          &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.120/kg
+          </span>
+        </h1>
+        <div class="con-div">
+          <div class="c-control">
+            <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+            <div class="count-box">3</div>
+            <button class="btn-c" onclick="increamentCounter(this)">+</button>
+         
+          </div>
+          <div class="b-controls">
+            <button class="btn-b" onclick="addCart(3,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+            <button class="btn-b">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      
+      <div
+        id="f4"
+        class="pr-div"
+      >
+        <div class="pr-div">
+          <img
+            src="royal_gala.jpeg"
+            loading="lazy"
+            alt="Apple"
+            class="pr-img _250px"
+            id="4"
+          />
+        </div>
+        <h1 class="pr-heading">Royal Gala
+          &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.100/kg
+          </span>
+        </h1>
+        <div class="con-div">
+          <div class="c-control">
+            <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+            <div class="count-box">3</div>
+            <button class="btn-c" onclick="increamentCounter(this)">+</button>
+         
+          </div>
+          <div class="b-controls">
+            <button class="btn-b" onclick="addCart(4,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+            <button class="btn-b">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="f5"
+        class="pr-div"
+      >
+        <div class="pr-div">
+          <img
+            src="red_apple.jpeg"
+            loading="lazy"
+            alt=""
+            sizes="250px"
+            srcset="
+              https://assets.website-files.com/62551fa7bee8db16e944f95d/62f6333b791f0a465269bc00_Apple%20(2)-p-500.webp 500w,
+              https://assets.website-files.com/62551fa7bee8db16e944f95d/62f6333b791f0a465269bc00_Apple%20(2).webp       500w
+            "
+            class="pr-img _250px"
+            id="5"
+          />
+        </div>
+        <h1 class="pr-heading">Red Apple
+          &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.90/kg
+          </span>
+        </h1>
+        <div class="con-div">
+          <div class="c-control">
+            <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+            <div class="count-box">3</div>
+            <button class="btn-c" onclick="increamentCounter(this)">+</button>
+         
+          </div>
+          <div class="b-controls">
+            <button class="btn-b" onclick="addCart(5,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+            <button class="btn-b">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="f6"
+        class="pr-div"
+      >
+        <div class="pr-div">
+          <img
+            src="dragon_fruit.jpeg"
+            loading="lazy"
+            alt=""
+            class="pr-img _250px"
+            id="6"
+          />
+        </div>
+        <h1 class="pr-heading">Dragon fruit
+          &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.50
+          </span>
+        </h1>
+        <div class="con-div">
+          <div class="c-control">
+            <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+            <div class="count-box">3</div>
+            <button class="btn-c" onclick="increamentCounter(this)">+</button>
+         
+          </div>
+          <div class="b-controls">
+            <button class="btn-b" onclick="addCart(6,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+            <button class="btn-b">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="f7"
+        class="pr-div"
+      >
+        <div class="pr-div">
+          <img
+            src="kiwi.jpeg"
+            loading="lazy"
+            alt=""
+            sizes="250px"
+            srcset="
+              https://assets.website-files.com/62551fa7bee8db16e944f95d/62f629d077a56f57f893ccd3_Peach%20(1)-p-500.webp 500w,
+              https://assets.website-files.com/62551fa7bee8db16e944f95d/62f629d077a56f57f893ccd3_Peach%20(1).webp       500w
+            "
+            class="pr-img _250px"
+            id="7"
+          />
+        </div>
+        <h1 class="pr-heading">Kiwi
+          &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.100
+          </span>
+        </h1>
+        <div class="con-div">
+          <div class="c-control">
+            <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+            <div class="count-box">3</div>
+            <button class="btn-c" onclick="increamentCounter(this)">+</button>
+         
+          </div>
+          <div class="b-controls">
+            <button class="btn-b" onclick="addCart(7,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+            <button class="btn-b">Buy Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="f8"
+        class="pr-div"
+      >
+        <div class="pr-div">
+          <img
+            src="peach.jpeg"
+            loading="lazy"
+            alt=""
+            class="pr-img _250px"
+            id="8"
+          />
+        </div>
+        <h1 class="pr-heading">Peach
+          &nbsp;
+          
+          <span style="font-size: 18px; color: #db1212;">
+            Rs.160/kg
+          </span>
+        </h1>
+        <div class="con-div">
+          <div class="c-control">
+            <button class="btn-c" onclick="decreamentCounter(this)">-</button>
+            <div class="count-box">3</div>
+            <button class="btn-c" onclick="increamentCounter(this)">+</button>
+         
+          </div>
+          <div class="b-controls">
+            <button class="btn-b" onclick="addCart(8,this)"> <img src="cart.svg" alt=""> Cart</button> &nbsp;&nbsp;
+            <button class="btn-b">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Contact Info -->
+    <div 
+    style="display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-rows: auto auto auto;">
+
+  
+<div class="contactinfo"
+    style="margin-left: 2rem; 
+    margin-bottom: 3rem;
+    margin-top: 3rem;"> 
+
+    <div class="head" style="padding-top: 5px;">
+      <p style="text-align: left;  font-size: 24px; color: rgb(7, 7, 7); 
+      font-weight: 500;
+      margin-bottom: 0;
+      padding-bottom: 0;" >
+       Contact us 
+      </p></div>
+
+      <div class="contactcontent"
+         style="display: flex;
+         flex-direction: column;
+         align-items: left;
+         ">
+          <p style="text-align: left;font-size: 15px;">
+            <strong style="color: rgb(81, 228, 47)">
+              Factory:
+            </strong>
+            <br>
+             Gat No. 314/2/1, A/P Mohadi, 
+            Tal.Dindori, 
+            <br>  
+            Nashik - 42207, Maharashtra, India</p>
+
+          <p style="text-align: left;font-size: 15px;">
+            <strong style="color: rgb(81, 228, 47)">
+              Phone:
+            </strong>
+            <br>
+            1800 212 002 020</p>
+
+            <p style="text-align: left;font-size: 15px;">
+              <strong style="color: rgb(81, 228, 47)">
+                Email:
+              </strong>
+              <br>
+              info@govardhanfarms.com</p>
+      </div>    
+    </div>
+    <!---------------------------->
+ 
+    <div class="featured-link"
+    style="margin-left: 2rem; 
+    margin-bottom: 3rem;
+    margin-top: 3rem;">
+ 
+  <div class="head" style="padding-top: 5px;">
+      <p style="text-align: left;  font-size: 24px; color: rgb(7, 7, 7); 
+      font-weight: 500;
+      margin-bottom: 0;
+      padding-bottom: 0;" >
+       Featured Link
+      </p></div>
+
+      <div class="featurecontent"
+         style="display: flex;
+         flex-direction: column;
+         align-items: left; ">
+          <p style="text-align: left; font-size: 15px;">
+            Our Story</p>
+          <p style="text-align: left; font-size: 15px;">
+            Meet our Chairman</p>
+          <p style="text-align: left; font-size: 15px;">
+            Food Safety Standards</p>
+          <p style="text-align: left; font-size: 15px;">
+             Careers</p>
+          <p style="text-align: left; font-size: 15px;">
+            Investors</p>
+      </div>    
+    </div>
+
+
+     <div class="help"
+    style="margin-left: 2rem; 
+    margin-bottom: 3rem;
+    margin-top: 3rem;">
+ 
+  <div class="head" style=" ">
+      <p style="text-align: left;  font-size: 24px; color: rgb(7, 7, 7); 
+      font-weight: 500;
+      margin-bottom: 0;
+      padding-bottom: 0;" >
+       Help
+      </p></div>
+
+      <div class="featurecontent"
+         style="display: flex;
+         flex-direction: column;
+         align-items: left; ">
+          <p style="text-align: left; font-size: 15px;">
+            Contact Us</p>
+          <p style="text-align: left; font-size: 15px;">
+            Privacy Policy</p>
+          <p style="text-align: left; font-size: 15px;">
+            Terms of Use</p>
+            <p style="text-align: left; font-size: 15px;">
+            Govardhan App</p>
+            <p style="text-align: left; font-size: 15px;">
+             Enterprise Login</p>
+      </div>    
+    </div>
+  </div>
+</div>
+
+<div class="c-f-div"> 
+  <button onclick="handelCart()"> <span id="card-count"></span> <img src="cart.svg" alt=""></button> 
+</div>
+
+
+    <div
+    style="display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;">
+
+       <div>
+        <p style="text-align: left; 
+        font-size: 11px; 
+        font-family: Nunito,sans-serif;">
+          © Govardhan Farms Post Harvest Care Ltd.
+        </p>
+       </div>
+
+            <div class="icons">
+        <a href="https://www.instagram.com/"><img src="twitter.svg" /></a>
+        <a href="https://www.instagram.com/"><img src="instagram.svg" /></a>
+        <a href="https://www.instagram.com/"><img src="youtube.svg" /></a>
+        <a href="https://www.instagram.com/"><img src="whatsapp.svg" /></a>
+        <a href="https://www.instagram.com/"><img src="linkedin.svg" /></a>
+       </div> 
+    </div>
+
+    <div>
+      <img src="contactbackground.jpeg" height="300px" width="100%" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

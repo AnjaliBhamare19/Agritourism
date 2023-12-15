@@ -1,0 +1,246 @@
+@import url('https://fonts.google.com/specimen/Balsamiq+Sans&display=swap');
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 15px;
+   margin: 0%;
+   padding: 0%;
+}
+
+.menu{
+    display: flex;
+    height:100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul {
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .menu li {
+    list-style: none;
+    display: block;
+    height: 100%;
+  }
+
+  .menu li a {
+    font-size: 17px;
+    color: rgb(10, 9, 9);
+    text-decoration: none;
+    height: 100%;
+    font-weight: 500;
+    padding: 0 18px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(91, 186, 37, 0.929); 
+  }
+
+  .logo img{
+    margin-left: 5rem;
+      max-width: 150px;
+      height: 106px;
+  }
+
+  .slide-container{
+    padding-top: 10px;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 100% ;
+    justify-content: space-between;
+  }
+
+  .image-container {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.55);
+    position:relative;
+    width:100%;
+    max-width: 100%;
+  }
+
+  .slide img {
+    width: 100%;
+    max-width: 100%;
+    height: 650px;
+    }
+
+  .slide {
+    display: none;
+    height: 650px;
+  } 
+
+  .product-grid {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.w-layout-grid {
+  display: grid;
+  justify-items: center;
+  grid-row-gap: 60px;
+  grid-column-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  
+}
+
+#f1,#f2,#f3,#f4,#f5,#f6,#f7,#f8
+{
+  grid-area: span 1/span 1/span 1/span 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pr-div {
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.pr-img {
+  width: 250px;
+  height: auto;
+  max-width: none;
+}
+
+.pr-heading {
+  z-index: 99;
+  height: auto;
+  color: #6b9c2f;
+  text-align: center;
+  margin-top: 0;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 38px;
+  line-height: 44px;
+}
+
+.icons {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons a {
+  justify-content:space-around;
+}
+
+.icons img {
+  width: 20px;
+  padding: 20px;
+}
+
+.con-div{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-b img{
+  width: 18px;
+}
+.count-box{
+  padding: 5px 7px;
+  border-radius: 10px;
+font-size: 1.2rem;
+}
+.btn-c{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-b{
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 1rem;
+  background-color: #cafe8a;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.c-control{
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.c-f-div{
+  position: sticky;
+  bottom: 40px;
+  left: 92%;
+  width: fit-content;
+}
+.c-f-div button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cafe8a;
+  border: none;
+  padding: 20px;
+  border-radius: 50px;
+}
+.c-f-div button img{
+  width: 2rem;
+}
+.c-f-div button span{
+  background-color: red;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+
+

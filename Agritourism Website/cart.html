@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart</title>
+    <link rel="stylesheet" href="cartstyle.css"/>
+</head>
+<body>
+
+    <!-- Menu-->
+    <nav class="menu">
+        <div class="logo">
+          <img src="logo.png" />
+        </div>
+  
+        <ul class="nav-menu">
+          <li><a href="HCI.html">Home</a></li>
+          <li><a href="HCI.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="HCI.html">Food Safety</a></li>
+          <li><a href="HCI.html">Sustainability</a></li>
+          <li><a href="HCI.html">Activities</a></li>
+          <li><a href="HCI.html">Our Packages</a></li>
+          <li><a href="HCI.html">Contact Us</a></li>
+          <li> <a href="cart.html"><img src="cart.svg" alt="" style="width: 35px;"></a></li>
+        </ul>
+      </nav>
+      <div class="bg-fruits"
+      style="     
+      background-image: linear-gradient(rgba(5,5,5,.27),rgba(5,5,5,.27)),url(freshfruits.jpg);
+      background-position: 0 0,50% 40%;
+      background-repeat: repeat,no-repeat;
+      background-size: auto,cover;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      min-height: 60vh"
+      >
+      <h1 style=" color: #ffffff; text-align: center;">Cart Items</h1>   
+      </div>
+      
+      <!---Add items into cart-->
+      <div class="cart-container cart-table">
+        <table id="table-container">
+          <tr>
+            <th style="width: 450px; text-align: center">Product</th>
+            <th>Quantity</th>
+            <th style="width: 300px; text-align: right">Total</th>
+          </tr>
+  
+   
+        </table>
+        <br />
+        <!--Total Price-->
+        <div class="total-price">
+          <table>
+            <tr>
+              <td
+                style="color: rgb(43, 168, 15); font-size: 18px; text-align: left"
+              >
+                Subtotal
+              </td>
+              <td style="font-size: 18px" id="subtotal">Rs.50</td>
+            </tr>
+  
+            <tr>
+              <td
+                style="color: rgb(43, 168, 15); font-size: 18px; text-align: left"
+              >
+                GST (5%)
+              </td>
+              <td style="font-size: 18px" id="tax">Rs.13</td>
+            </tr>
+  
+            <tr>
+              <td
+                style="color: rgb(43, 168, 15); font-size: 18px; text-align: left"
+              >
+                Total
+              </td>
+              <td style="font-size: 18px" id="total">Rs.63</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+       <!-- Contact Info -->
+        <div 
+        style="display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        grid-template-rows: auto auto auto;">
+    
+    <div class="contactinfo"
+        style="margin-left: 2rem; 
+        margin-bottom: 3rem;
+        margin-top: 3rem;"> 
+    
+        <div class="head" style="padding-top: 5px;">
+          <p style="text-align: left;  font-size: 24px; color: rgb(7, 7, 7); 
+          font-weight: 500;
+          margin-bottom: 0;
+          padding-bottom: 0;" >
+           Contact us 
+          </p></div>
+    
+          <div class="contactcontent"
+             style="display: flex;
+             flex-direction: column;
+             align-items: left;
+             ">
+              <p style="text-align: left;font-size: 15px;">
+                <strong style="color: rgb(81, 228, 47)">
+                  Factory:
+                </strong>
+                <br>
+                 Gat No. 314/2/1, A/P Mohadi, 
+                Tal.Dindori, 
+                <br>  
+                Nashik - 42207, Maharashtra, India</p>
+    
+              <p style="text-align: left;font-size: 15px;">
+                <strong style="color: rgb(81, 228, 47)">
+                  Phone:
+                </strong>
+                <br>
+                1800 212 002 020</p>
+    
+                <p style="text-align: left;font-size: 15px;">
+                  <strong style="color: rgb(81, 228, 47)">
+                    Email:
+                  </strong>
+                  <br>
+                  info@govardhanfarms.com</p>
+          </div>    
+        </div>
+        <!---------------------------->
+     
+        <div class="featured-link"
+        style="margin-left: 2rem; 
+        margin-bottom: 3rem;
+        margin-top: 3rem;">
+     
+      <div class="head" style="padding-top: 5px;">
+          <p style="text-align: left;  font-size: 24px; color: rgb(7, 7, 7); 
+          font-weight: 500;
+          margin-bottom: 0;
+          padding-bottom: 0;" >
+           Featured Link
+          </p></div>
+    
+          <div class="featurecontent"
+             style="display: flex;
+             flex-direction: column;
+             align-items: left; ">
+              <p style="text-align: left; font-size: 15px;">
+                Our Story</p>
+              <p style="text-align: left; font-size: 15px;">
+                Meet our Chairman</p>
+              <p style="text-align: left; font-size: 15px;">
+                Food Safety Standards</p>
+              <p style="text-align: left; font-size: 15px;">
+                 Careers</p>
+              <p style="text-align: left; font-size: 15px;">
+                Investors</p>
+          </div>    
+        </div>
+    
+    
+         <div class="help"
+        style="margin-left: 2rem; 
+        margin-bottom: 3rem;
+        margin-top: 3rem;">
+     
+      <div class="head" style=" ">
+          <p style="text-align: left;  font-size: 24px; color: rgb(7, 7, 7); 
+          font-weight: 500;
+          margin-bottom: 0;
+          padding-bottom: 0;" >
+           Help
+          </p></div>
+    
+          <div class="featurecontent"
+             style="display: flex;
+             flex-direction: column;
+             align-items: left; ">
+              <p style="text-align: left; font-size: 15px;">
+                Contact Us</p>
+              <p style="text-align: left; font-size: 15px;">
+                Privacy Policy</p>
+              <p style="text-align: left; font-size: 15px;">
+                Terms of Use</p>
+                <p style="text-align: left; font-size: 15px;">
+                Govardhan App</p>
+                <p style="text-align: left; font-size: 15px;">
+                 Enterprise Login</p>
+          </div>    
+        </div>
+      </div>
+    </div>
+    
+        <div
+        style="display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;">
+    
+           <div>
+            <p style="text-align: left; 
+            font-size: 11px; 
+            font-family: Nunito,sans-serif;">
+              © Govardhan Farms Post Harvest Care Ltd.
+            </p>
+           </div>
+    
+                <div class="icons">
+            <a href="https://www.instagram.com/"><img src="twitter.svg" /></a>
+            <a href="https://www.instagram.com/"><img src="instagram.svg" /></a>
+            <a href="https://www.instagram.com/"><img src="youtube.svg" /></a>
+            <a href="https://www.instagram.com/"><img src="whatsapp.svg" /></a>
+            <a href="https://www.instagram.com/"><img src="linkedin.svg" /></a>
+           </div> 
+        </div>
+       
+    
+        <div>
+          <img src="contactbackground.jpeg" height="300px" width="100%" />
+        </div>
+        <script src="cartScript.js"></script>
+        </body>   
+</html>
